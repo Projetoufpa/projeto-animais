@@ -24,6 +24,7 @@ def run():
         page_icon="👋",
     )
 
+    st.write("ola")
     st.write("# agora essa parada vai 👋")
 
     st.sidebar.success("Select a demo above.")
