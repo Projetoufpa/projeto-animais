@@ -35,10 +35,10 @@ tab1,tab2,tab3=st.tabs(["camera","foto","mapa"])
 
 with tab1:
     st.header('Tire a foto animal')
-    st.image("/workspaces/projeto-animais/icone_camera.png",width=100)
+    st.image("Projetoufpa/projeto-animais/Fotos/icone_camera.png",width=100)
 with tab2:
     st.header('Insira a imagem de um animal')
-    st.image("/workspaces/projeto-animais/icone_imagem.png",width=100)
+    st.image("Projetoufpa/projeto-animais/Fotos/icone_imagem.png",width=100)
 with tab3 :
     df = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
