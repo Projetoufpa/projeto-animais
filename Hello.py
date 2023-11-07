@@ -15,7 +15,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from streamlit.logger import get_logger#olsnibibdibsdioa
+from streamlit.logger import get_logger#olsnibibdi
 #njpofijnpi
 
 LOGGER = get_logger(__name__)
