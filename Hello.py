@@ -26,7 +26,7 @@ def run():
     )
 st.title('Bem vindo ao :red[ECOGUARDIAN]')
 st.header('Aqui com a ajuda de uma IA você pode indentificar animais exóticos fora de seu habtat', divider='blue')
-   
+st.header('Teste')
 
 if __name__ == "__main__":
     run()
