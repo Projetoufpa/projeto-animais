@@ -24,7 +24,8 @@ def run():
         page_title="EcoGuardian",
         page_icon="🦎",
     )
-#oijfóióih orhoitqhoihj t[pi]
+st.title('Bem vindo ao :red[ECOGUARDIAN]')
+st.header('Aqui com a ajuda de uma IA você pode indentificar animais exóticos fora de seu habtat', divider='blue')
    
 
 if __name__ == "__main__":
