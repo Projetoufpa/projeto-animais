@@ -25,7 +25,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("ola")
+    st.write("ola sera que esse commit vai ?")
     st.write("# agora essa parada vai 👋")
 
     st.sidebar.success("Select a demo above.")
