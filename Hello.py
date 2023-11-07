@@ -26,8 +26,17 @@ def run():
     )
 st.title('Bem vindo ao :red[ECOGUARDIAN]')
 st.header('Aqui com a ajuda de uma IA você pode indentificar animais exóticos fora de seu habtat', divider='blue')
-st.header('Teste')
-st.write("teste do teste ")
+
+st.header('Para identificação de um animal')
+
+tab1,tab2=st.tabs(["camera","foto"])
+
+with tab1:
+    st.header('Tire a foto animal')
+    st.image("/workspaces/projeto-animais/icone_camera.png",width=100)
+with tab2:
+    st.header('Insira a imagem de um animal')
+    st.image("/workspaces/projeto-animais/icone_imagem.png",width=100)
 
 if __name__ == "__main__":
     run()
